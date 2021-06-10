@@ -57,6 +57,9 @@
                                                 <state key="normal" title="Criar conta">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="buttonSignupAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9aR-yS-qKA"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>

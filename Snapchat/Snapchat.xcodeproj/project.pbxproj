@@ -19,6 +19,8 @@
 		361F60952671949B002E0A55 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 361F60942671949B002E0A55 /* GoogleService-Info.plist */; };
 		361F60BA2671A1D2002E0A55 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361F60B82671A1D2002E0A55 /* LoginViewController.swift */; };
 		361F60BB2671A1D2002E0A55 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 361F60B92671A1D2002E0A55 /* LoginViewController.xib */; };
+		361F60C22671A25B002E0A55 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361F60C02671A25B002E0A55 /* SignUpViewController.swift */; };
+		361F60C32671A25B002E0A55 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 361F60C12671A25B002E0A55 /* SignUpViewController.xib */; };
 		B5E0E800CB6C08DF539F6ED1 /* Pods_SnapchatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A768F55A213DCD2AF79C0E6 /* Pods_SnapchatTests.framework */; };
 		E2849CB79C6AB30CAEC571FA /* Pods_Snapchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D0D4BB0D7262EC1A651FF09 /* Pods_Snapchat.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +60,8 @@
 		361F60942671949B002E0A55 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		361F60B82671A1D2002E0A55 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		361F60B92671A1D2002E0A55 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		361F60C02671A25B002E0A55 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		361F60C12671A25B002E0A55 /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
 		3A768F55A213DCD2AF79C0E6 /* Pods_SnapchatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapchatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		462E79021D163F262273AF4B /* Pods-Snapchat-SnapchatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapchat-SnapchatUITests.release.xcconfig"; path = "Target Support Files/Pods-Snapchat-SnapchatUITests/Pods-Snapchat-SnapchatUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4735EBA80B71FB5DFC13B964 /* Pods-Snapchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapchat.release.xcconfig"; path = "Target Support Files/Pods-Snapchat/Pods-Snapchat.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +126,7 @@
 		361F605D26719390002E0A55 /* Snapchat */ = {
 			isa = PBXGroup;
 			children = (
+				361F60BF2671A24A002E0A55 /* Signup */,
 				361F60B72671A1C3002E0A55 /* Login */,
 				361F605E26719390002E0A55 /* AppDelegate.swift */,
 				361F606026719390002E0A55 /* SceneDelegate.swift */,
@@ -160,6 +165,15 @@
 				361F60B92671A1D2002E0A55 /* LoginViewController.xib */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		361F60BF2671A24A002E0A55 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				361F60C02671A25B002E0A55 /* SignUpViewController.swift */,
+				361F60C12671A25B002E0A55 /* SignUpViewController.xib */,
+			);
+			path = Signup;
 			sourceTree = "<group>";
 		};
 		911D6C75E06848ED794018BA /* Pods */ = {
@@ -297,6 +311,7 @@
 				361F606B26719392002E0A55 /* LaunchScreen.storyboard in Resources */,
 				361F60952671949B002E0A55 /* GoogleService-Info.plist in Resources */,
 				361F606826719392002E0A55 /* Assets.xcassets in Resources */,
+				361F60C32671A25B002E0A55 /* SignUpViewController.xib in Resources */,
 				361F606626719390002E0A55 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +444,7 @@
 				361F606326719390002E0A55 /* ViewController.swift in Sources */,
 				361F605F26719390002E0A55 /* AppDelegate.swift in Sources */,
 				361F606126719390002E0A55 /* SceneDelegate.swift in Sources */,
+				361F60C22671A25B002E0A55 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
