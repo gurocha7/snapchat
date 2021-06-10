@@ -8,10 +8,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
+    @IBAction func buttonLoginAction(_ sender: Any) {
+        openLogin()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    }
+    
+    private func openLogin() {
+        let controller = LoginViewController()
+        navigationController?.pushViewController(controller, animated: true)
     }
 
 
